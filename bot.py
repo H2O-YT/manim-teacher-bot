@@ -130,7 +130,8 @@ async def render(ctx, *, message:str):
             if file_for_discord.endswith(".mp4"):
                 files.append(path2+"/"+file_for_discord)
         discord_files = [disnake.File(file_for_discord) for file_for_discord in files]
-        await ctx.send(f"{ctx.message.author.mention} Rendered succesfully!", files=discord_files)
+        for discord_file in discord_files:
+            await ctx.send(f"{ctx.message.author.mention} Rendered succesfully!", file=discord_file)
         for discord_file in files:
             await asyncos.remove(discord_file)
     await asyncos.remove("user_code.py")
