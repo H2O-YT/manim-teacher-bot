@@ -5,3 +5,5 @@ dvisvgm
 texlive-latex-base
 texlive-xetex
 libpango1.0-dev
+python3
+python3-pip
