@@ -6,5 +6,5 @@ texlive-fonts-extra
 texlive-latex-recommended
 texlive-science
 tipa
-xetex
+texlive-xetex
 libpango1.0-dev
