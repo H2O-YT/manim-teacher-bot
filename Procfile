@@ -1,2 +1,2 @@
-install: pip install -r requirements.txt
-worker: python bot.py
+install: pip3 install -r requirements.txt
+worker: python3 bot.py
