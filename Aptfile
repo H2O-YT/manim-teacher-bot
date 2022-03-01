@@ -1,10 +1,7 @@
 libcairo2-dev
 ffmpeg
 texlive
-texlive-latex-extra
-texlive-fonts-extra
-texlive-latex-recommended
-texlive-science
-tipa
+dvisvgm
+texlive-latex-base
 texlive-xetex
 libpango1.0-dev
